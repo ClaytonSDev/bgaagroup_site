@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+html, body {
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+:root {
+    --cor0:var(#FFFFFF);
+    --cor1:var(#D9D8D7);
+    --cor2:var(#648C85);
+    --cor3:var(#2E5559);
+    --cor4:var(#39733D);
+    --cor5:var(#0F2026);
+
+    --fonte-padrao: Arial, Verdana, Helvetica,sans-serif;
+    --fonte-destaque:'Ubuntu', cursive;
+    --fonte-android:'Comic Neue', cursive;
+}
+
+.center {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+header {
+    background-color: #2E5559;  
+    padding: 20px 0;
+}
+
+.logo {
+    width: 50%;
+}
+
+.menu {
+    padding-top: 30px;
+    width: 50%;
+    text-align: right;
+    
+}
+
+.menu a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font: var(--fonte-destaque);
+    font-size: 20px;
+    margin-right: 30px;
+}
