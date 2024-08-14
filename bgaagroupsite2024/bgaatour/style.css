@@ -6,8 +6,7 @@
 
 html, body {
     height: 100%;
-    overflow-y: hidden;
-    overflow-x: hidden;
+    
 }
 
 :root {
@@ -32,18 +31,19 @@ html, body {
 }
 
 header {
-    background-color: #2E5559;  
-    padding: 20px 0;
+    background-color:#FFFFFF;  
+    padding: 10px 0;
 }
 
 .logo {
-    width: 50%;
+    width: 20%;
 }
 
 .menu {
-    padding-top: 30px;
-    width: 50%;
-    text-align: right;
+    
+    padding-top: 70px;
+    width: 70%;
+    text-align: center;
     
 }
 
@@ -53,5 +53,14 @@ header {
     font-weight: bold;
     font: var(--fonte-destaque);
     font-size: 20px;
-    margin-right: 30px;
+    margin-right: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    transition: duration 0.5s;
+}
+
+.menu > a:hover {
+    background-color:#2E5559;
+    color: #D9D8D7;
+
 }
