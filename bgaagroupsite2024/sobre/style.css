@@ -100,6 +100,16 @@ header {
     padding: 10px;
 }
 
+.container {
+    text-align: center;
+
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
 .slogan3 > h3 {
     font-size: 20px;
     color: #2E5559;

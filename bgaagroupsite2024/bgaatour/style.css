@@ -64,3 +64,13 @@ header {
     color: #D9D8D7;
 
 }
+
+.container {
+    text-align: center;
+
+}
+
+img {
+    display: block;
+    margin: auto;
+}
