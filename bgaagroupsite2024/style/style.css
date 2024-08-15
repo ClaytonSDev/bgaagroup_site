@@ -6,8 +6,7 @@
 
 html, body {
     height: 100%;
-    overflow-y: hidden;
-    overflow-x: hidden;
+   
 }
 
 :root {
@@ -33,29 +32,22 @@ html, body {
 
 header {
     background-color: #2E5559;  
-    padding: 10px 0;
-}
-
-.logo {
-    width: 20%;
+    padding: 20px 20px;
 }
 
 .menu {
-    
-    padding-top: 70px;
-    width: 70%;
     text-align: center;
-    
+  
 }
 
-.menu a {
+.menu > a {
     color: black;
     text-decoration: none;
     font-weight: bold;
     font: var(--fonte-destaque);
     font-size: 20px;
     margin-right: 20px;
-    padding: 5px;
+    padding: 10px;
     border-radius: 5px;
     transition: duration 0.5s;
 }
@@ -63,64 +55,5 @@ header {
 .menu > a:hover {
     background-color: #2E5559;
     color: #D9D8D7;
-
-}
-
-section.sobre {
-    height: calc(100% - 100px);
-    position: relative;
-}
-
-.extras{
-    position: absolute;
-    bottom: -450px;
-    right: -500px;
-    width: 900px;
-    height: 900px;
-    border-radius: 50%;
-    background-color:#2E5559;
-}
-
-.social-media {
-    position: absolute;
-    right: 510px;
-    top: 40px;
-}
-
-.social-media img {
-    display: block;
-    width: 60px;
-    margin: 30px 0;
-}
-
-.texto-sobre {
-    margin-top: 100px;
-}
-
-.texto-sobre h1 {
-    font: var(--fonte-destaque);
-    font-size: 50px;
-    color: #0F2026;
-}
-
-.texto-sobre p{
-    margin: 20px 0;
-    color: #0F2026;
-    font-size: 18px;
-    font-weight: bold;
-    max-width: 600px;
-}
-
-.texto-sobre button {
-    text-decoration: none;
-    box-shadow: none;
-    border: 0;
-    background-color: #2E5559;
-    color:#D9D8D7;
-    border-radius: 20px;
-    width: 150px;
-    height: 40px;
-    cursor: pointer;
-    font: var(--fonte-destaque);
 }
 
